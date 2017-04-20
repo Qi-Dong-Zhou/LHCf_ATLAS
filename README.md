@@ -1,2 +1,2 @@
-#make
-#./bin/LHCf_ATLAS
+make\
+./bin/LHCf_ATLAS
