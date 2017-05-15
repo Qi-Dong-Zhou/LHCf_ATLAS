@@ -23,7 +23,7 @@ CXXFLAGS=-g -Wall -std=c++11 $(ROOT_CFLAGS)
 
 
 INCALL += -I./include/ 
-CXXFLAGS +=  $(INCALL) -g -lMinuit2 -fopenmp
+CXXFLAGS +=  $(INCALL) -g -fopenmp
 
 BINDIR=./bin
 
