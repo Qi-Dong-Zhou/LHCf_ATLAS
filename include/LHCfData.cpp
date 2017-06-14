@@ -21,6 +21,7 @@ LHCfData::LHCfData(TString fileName) : cEnt(0)
   LHCfCollectionTree->SetBranchStatus("*",0);
 
   LHCfCollectionTree->SetBranchAddress("EventInfo_runNumber", &EventInfo_runNumber, &b_run_N);
+  LHCfCollectionTree->SetBranchAddress("EventInfo_EventNumber", &EventInfo_EventNumber, &b_event_gN);
   LHCfCollectionTree->SetBranchAddress("EventInfo_timeStamp_s", &EventInfo_timeStamp_s, &b_time_s);
   LHCfCollectionTree->SetBranchAddress("EventInfo_timeStamp_us", &EventInfo_timeStamp_us, &b_time_us);
   LHCfCollectionTree->SetBranchAddress("EventInfo_BCID", &EventInfo_BCID, &b_BunchID);
